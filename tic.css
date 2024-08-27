@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(228, 228, 216);
+   
+}
+.container
+{
+    padding:10px;
+    margin:auto;
+    background-color: aqua;
+    height:fit-content;
+    width:fit-content;
+    display:grid;
+    place-items: center;
+    gap:10px;
+    grid-template-columns:auto auto auto;
+    /* gap:250px; */
+    justify-content: space-evenly;
+    
+
+}
+div{
+    height:70px;
+    background-color: rgb(225, 229, 229);
+    width:70px;
+    margin: auto;
+    border:1px rgb(23, 23, 48) solid;
+    font-size:20px;
+    text-align: center;
+    border-radius:10px;
+    justify-content: center;
+    /* justify-content: center;
+    align-items: center;
+    place-items: center; */
+}
+.container div{
+    height:70px;
+    background-color: rgb(225, 229, 229);
+    width:70px;
+    margin: auto;
+    border:1px rgb(23, 23, 48) solid;
+    font-size:50px;
+    text-align: center;
+    border-radius:10px;
+    justify-content: center;
+    /* justify-content: center;
+    align-items: center;
+    place-items: center; */
+}
+div:hover{
+    cursor:pointer;
+}
+.p{
+    width:max-content;
+    height: auto;
+    margin-top:5%;
+}
+.d{
+    display: none   ;
+}
+.Move{
+    width:100px;
+    height: fit-content;
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+/* .Move:hover{
+    background-color: blueviolet;
+    color:white;
+    width:600px;
+    cursor:pointer;
+    box-shadow: 2px 2px 2px rgb(18, 18, 47);
+} */
+.play_again{
+    margin-top: 50px;
+    width:200px;
+    height: auto;
+}
+.play_again:hover{
+    background-color: blueviolet;
+    color:white;
+    width:70%;
+    cursor:pointer;
+    box-shadow: 1px 1px 1px rgb(25, 25, 51);
+}
